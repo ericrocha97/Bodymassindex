@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Body mass index</string>
+    <string name="pw_hint">Password</string>
+    <string name="lg_hint">Login</string>
+    <string name="bt_login_text">Login</string>
+    <string name="bt_exit_text">Exit</string>
+    <string name="height_hint">Height</string>
+    <string name="weight_hint">Weight</string>
+    <string name="result_text" />
+    <string name="bt_calc_text">Calculate</string>
+    <string name="result_text_1">Very underweight</string>
+    <string name="result_text_2">Under weight</string>
+    <string name="result_text_3">Normal weight</string>
+    <string name="result_text_4">Overweight</string>
+    <string name="result_text_5">Obesity I</string>
+    <string name="result_text_6">Obesity II (severe)</string>
+    <string name="result_text_7">Obesity III (morbid)</string>
+    <string name="result_text_error">Error: Fill in the required fields</string>
+    <string name="btn_clean">clean</string>
+    <string name="al_ok">OK</string>
+    <string name="al_t">Incorrect login</string>
+    <string name="al_m" translatable="false">Incorrect username or password</string>
+    <string name="al_m_1">Incorrect username</string>
+    <string name="al_m_2">Incorrect password</string>
+    <string name="corp_text">Copyright: Eric Rocha RA: 17.2968</string>
+    <string name="todo">TODO</string>
+</resources>
