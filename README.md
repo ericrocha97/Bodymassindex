@@ -2,5 +2,5 @@
  Application to calculate BMI (Body Mass Index)
 
 # Login
-User : Admin
+User : Admin;
 Password: Admin
