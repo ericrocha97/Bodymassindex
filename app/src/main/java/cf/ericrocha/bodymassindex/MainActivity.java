@@ -68,4 +68,8 @@ public class MainActivity extends AppCompatActivity {
     public void exit(View view){
         finishAffinity();
     }
+    @Override
+    public void onBackPressed(){
+        finishAffinity();
+    }
 }

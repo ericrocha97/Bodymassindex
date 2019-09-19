@@ -6,35 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".CalcActivity">
 
-    <EditText
-        android:id="@+id/height_tx"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:ems="10"
-        android:hint="@string/height_hint"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/weight_tx"
-        android:importantForAutofill="no" />
 
-    <EditText
-        android:id="@+id/weight_tx"
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="180dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="@string/weight_hint"
-        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        android:id="@+id/weight_txi"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/weight_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/weight_hint"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/hit_weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/hit_weight"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight_txi" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hit_weight"
+        android:id="@+id/height_txi"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/height_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/height_hint"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/hit_height"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/hit_height"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/height_txi" />
+
 
     <TextView
         android:id="@+id/result_tx"
@@ -49,7 +96,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/height_tx" />
+        app:layout_constraintTop_toBottomOf="@+id/hit_height" />
 
     <Button
         android:id="@+id/button"
@@ -59,6 +106,7 @@
         android:layout_marginTop="24dp"
         android:onClick="calc"
         android:text="@string/bt_calc_text"
+        android:padding="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/result_tx" />
 
@@ -70,7 +118,9 @@
         android:layout_marginEnd="24dp"
         android:onClick="exit"
         android:text="@string/bt_exit_text"
+        android:padding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/result_tx" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

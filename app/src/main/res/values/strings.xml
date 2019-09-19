@@ -1,27 +1,30 @@
 <resources>
-    <string name="app_name">Body mass index</string>
-    <string name="pw_hint">Password</string>
-    <string name="lg_hint">Login</string>
-    <string name="bt_login_text">Login</string>
-    <string name="bt_exit_text">Exit</string>
-    <string name="height_hint">Height</string>
-    <string name="weight_hint">Weight</string>
+    <string name="app_name" translatable="false">Body mass index</string>
+    <string name="pw_hint" translatable="false">Password</string>
+    <string name="lg_hint" translatable="false">Login</string>
+    <string name="bt_login_text" translatable="false">Login</string>
+    <string name="bt_exit_text" translatable="false">Exit</string>
+    <string name="height_hint" translatable="false">Height</string>
+    <string name="weight_hint" translatable="false">Weight</string>
     <string name="result_text" />
-    <string name="bt_calc_text">Calculate</string>
-    <string name="result_text_1">Very underweight</string>
-    <string name="result_text_2">Under weight</string>
-    <string name="result_text_3">Normal weight</string>
-    <string name="result_text_4">Overweight</string>
-    <string name="result_text_5">Obesity I</string>
-    <string name="result_text_6">Obesity II (severe)</string>
-    <string name="result_text_7">Obesity III (morbid)</string>
-    <string name="result_text_error">Error: Fill in the required fields</string>
-    <string name="btn_clean">clean</string>
-    <string name="al_ok">OK</string>
-    <string name="al_t">Incorrect login</string>
+    <string name="title" translatable="false">Calculate your BMI</string>
+    <string name="bt_calc_text" translatable="false">Calculate</string>
+    <string name="result_text_1" translatable="false">Very underweight</string>
+    <string name="result_text_2" translatable="false">Under weight</string>
+    <string name="result_text_3" translatable="false">Normal weight</string>
+    <string name="result_text_4" translatable="false">Overweight</string>
+    <string name="result_text_5" translatable="false">Obesity I</string>
+    <string name="result_text_6" translatable="false">Obesity II (severe)</string>
+    <string name="result_text_7" translatable="false">Obesity III (morbid)</string>
+    <string name="result_text_error" translatable="false">Error: Fill in the required fields</string>
+    <string name="btn_clean" translatable="false">clean</string>
+    <string name="al_ok" translatable="false">OK</string>
+    <string name="al_t" translatable="false">Incorrect login</string>
     <string name="al_m" translatable="false">Incorrect username or password</string>
-    <string name="al_m_1">Incorrect username</string>
-    <string name="al_m_2">Incorrect password</string>
-    <string name="corp_text">Copyright: Eric Rocha RA: 17.2968</string>
+    <string name="al_m_1" translatable="false">Incorrect username</string>
+    <string name="al_m_2" translatable="false">Incorrect password</string>
+    <string name="corp_text" translatable="false">Copyright: Eric Rocha RA: 17.2968</string>
     <string name="todo">TODO</string>
+    <string name="hit_weight" translatable="false">Enter your weight in kilograms. Ex: 87</string>
+    <string name="hit_height" translatable="false">Enter your height in meters. Ex: 1.85</string>
 </resources>

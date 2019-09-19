@@ -2,6 +2,7 @@ package cf.ericrocha.bodymassindex;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -19,6 +20,7 @@ public class CalcActivity extends AppCompatActivity {
         w = findViewById(R.id.weight_tx);
         h = findViewById(R.id.height_tx);
         Result = findViewById(R.id.result_tx);
+        getSupportActionBar().setTitle(getString(R.string.title));
     }
     public void calc(View view){
 
@@ -64,5 +66,9 @@ public class CalcActivity extends AppCompatActivity {
     public void clean(View view){
         w.setText("");
         h.setText("");
+    }
+    @Override
+    public void onBackPressed(){
+        finishAffinity();
     }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Índice de massa corporal</string>
+    <string name="al_m" translatable="false">Usuário ou senha incorretos</string>
+    <string name="al_m_1" translatable="false">Nome de usuário incorreto</string>
+    <string name="al_m_2" translatable="false">Senha incorreta</string>
+    <string name="al_ok" translatable="false">Ok</string>
+    <string name="al_t" translatable="false">Login incorreto</string>
+    <string name="bt_calc_text" translatable="false">Calcular</string>
+    <string name="bt_exit_text" translatable="false">Sair</string>
+    <string name="bt_login_text" translatable="false">Login</string>
+    <string name="btn_clean" translatable="false">Limpar</string>
+    <string name="corp_text" translatable="false">Copyright: Eric Rocha RA: 17.2968</string>
+    <string name="height_hint" translatable="false">Altura</string>
+    <string name="hit_height" translatable="false">Digite sua altura em metros. Ex: 1.85</string>
+    <string name="hit_weight" translatable="false">Digite seu peso em quilogramas. Ex: 87</string>
+    <string name="lg_hint" translatable="false">Login</string>
+    <string name="pw_hint" translatable="false">Senha</string>
+    <string name="result_text_1" translatable="false">Muito abaixo do peso</string>
+    <string name="result_text_2" translatable="false">Abaixo do peso</string>
+    <string name="result_text_3" translatable="false">Peso normal</string>
+    <string name="result_text_4" translatable="false">Excesso de peso</string>
+    <string name="result_text_5" translatable="false">Obesidade I</string>
+    <string name="result_text_6" translatable="false">Obesidade II (grave)</string>
+    <string name="result_text_7" translatable="false">Obesidade III (mórbida)</string>
+    <string name="result_text_error" translatable="false">Erro: Preencha os campos obrigatórios</string>
+    <string name="title" translatable="false">Calcule seu IMC</string>
+    <string name="weight_hint" translatable="false">Peso</string>
+</resources>
